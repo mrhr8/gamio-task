@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watchAll",
+    "test:ci": "jest --ci"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.29.3",
+    "@tanstack/react-query-devtools": "^4.29.3",
+    "axios": "^1.3.6",
+    "date-fns": "^2.29.3",
+    "install": "^0.13.0",
+    "next": "latest",
+    "npm": "^9.6.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^9.1.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
+    "@types/node": "18.16.1",
+    "@types/react": "18.0.28",
+    "typescript": "4.9.5"
+  }
+}
